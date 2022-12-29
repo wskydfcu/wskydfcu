@@ -1,5 +1,5 @@
-FROM alpine:3
-MAINTAINER FAN VINGA<fanalcest@gmail.com>
+FROM python:3.9.2-alpine
+
 
 ENV NODE_ID=0                     \
     DNS_1=1.0.0.1                 \
